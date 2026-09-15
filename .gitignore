@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+
+# Logs
+*.log
+
+# Generated data
+data/processed/
+vector_store/
+
+# OS
+.DS_Store
+Thumbs.db
