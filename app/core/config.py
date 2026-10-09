@@ -1,3 +1,6 @@
+# config file we write the application setting and configuration at one centeral place
+# configuration values loadded from env file
+
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -22,3 +25,4 @@ class Settings(BaseSettings):
 
 
 settings = Settings()
+

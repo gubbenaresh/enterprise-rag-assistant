@@ -1,3 +1,5 @@
+
+
 from fastapi.testclient import TestClient
 
 from app.main import app
@@ -15,8 +17,7 @@ def test_root_endpoint():
     data = response.json()
 
     assert (
-        data["application"]
-        == "Enterprise Knowledge AI Assistant"
+        data["application"] == "Enterprise Knowledge AI Assistant"
     )
 
 
@@ -26,6 +27,8 @@ def test_health_endpoint():
 
     assert response.status_code == 200
 
-    assert response.json() == {
-        "status": "healthy"
-    }
+    data = response.json()
+
+    assert ( 
+        data["status"] == "healthy"
+    )

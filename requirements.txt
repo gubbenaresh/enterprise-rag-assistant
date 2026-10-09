@@ -3,4 +3,9 @@ uvicorn[standard]
 pydantic
 pydantic-settings
 python-dotenv
+
+pymupdf
+python-docx
+
 pytest
+httpx
