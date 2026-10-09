@@ -11,23 +11,23 @@ and use an LLM to generate grounded answers.
 
 ## Planned Architecture
 
-Documents
-    ↓
-Document Processing
-    ↓
-Chunking
-    ↓
-Embeddings
-    ↓
-Vector Database
-    ↓
-Retrieval
-    ↓
-Reranking
-    ↓
-LLM
-    ↓
-Answer + Sources
+    Documents
+        ↓
+    Document Processing
+        ↓
+    Chunking
+        ↓
+    Embeddings
+        ↓
+    Vector Database
+        ↓
+    Retrieval
+        ↓
+    Reranking
+        ↓
+    LLM
+        ↓
+    Answer + Sources
 
 ## Current Status
 
